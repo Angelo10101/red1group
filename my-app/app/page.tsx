@@ -23,22 +23,22 @@ const services = [
 
 const steps = [
   {
-    title: "Check eligibility",
+    title: "Check Eligibility",
     description:
       "Complete a short assessment so our team can review available fully funded schemes for your household.",
   },
   {
-    title: "Home energy survey",
+    title: "Home Energy Survey",
     description:
       "We assess your current setup and identify the upgrades that will deliver the biggest savings.",
   },
   {
-    title: "Professional installation",
+    title: "Professional Installation",
     description:
       "Qualified installers complete the work quickly, safely, and with minimal disruption.",
   },
   {
-    title: "Ongoing support",
+    title: "Ongoing Support",
     description:
       "Get practical guidance to maximise performance and long-term savings after installation.",
   },
@@ -167,7 +167,11 @@ export default function Home() {
             </div>
             <div className="rounded-2xl border border-white/15 bg-slate-950/70 p-6">
               <p className="text-sm text-slate-300">Call</p>
-              <a href="tel:+441913003022" className="text-2xl font-semibold text-white">
+              <a
+                href="tel:+441913003022"
+                aria-label="Call Red1 Group at 0191 300 3022"
+                className="text-2xl font-semibold text-white"
+              >
                 0191 300 3022
               </a>
               <p className="mt-6 text-sm text-slate-300">Visit</p>
